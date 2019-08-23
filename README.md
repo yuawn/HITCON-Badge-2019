@@ -19,7 +19,7 @@ There are four pages, you can use `LEFT` and `RIGHT` button on the badge to swit
 * There are 11 patterns in total.
 ### Page 2: Paint Mode
 * In this page, you can customize the color of LEDs!
-* Select the LEDs by pressing `UP` `DWON` `LEFT` `RIGHT`.
+* Select the LEDs by pressing `UP` `DOWN` `LEFT` `RIGHT`.
 * Change the color by pressing `A` `B`.
 * Press `AB` (at the same time) and then press `LEFT`/`RIGHT` to leave paint mode.
 ### Page 3: Snake
@@ -49,7 +49,7 @@ There are four pages, you can use `LEFT` and `RIGHT` button on the badge to swit
     * Linux/macOS: You can use `screen` command.
         * example: `screen /dev/tty.usbmodemxxx` (replace `/dev/tty.usbmodemxxx` with correct path)
     * Windows: You can use `PuTTY` (Connection type: Serial) to connect the COM port.
-* Control the snake by prssing `UP` `DWON` `LEFT` `RIGHT`.
+* Control the snake by prssing `UP` `DOWN` `LEFT` `RIGHT`.
 * Press `AB` at the same time to pause the game.
     * Press `AB` again to continue the game, `LEFT` to exit.
 * Score
@@ -134,7 +134,7 @@ Badge challenge:
 ## HITCON Badge Challenges
 > Badge source code, solution and exploits will be released within the talk `HITCON Badge 2019 秘辛: MCU ARM TrustZone challenges` at R0 (Day2 14:40 - 15:30).
 
-There are 11 pattern in total, but three of them are special, so you need to get them in sepcial way :)
+There are 11 pattern in total, but three of them are special, so you need to get them in special way :)
 ### Warm Up
 * Before pwning the badge, why not play some game first.
 * Get the score higher than 50, you can unlock the snake pattern.

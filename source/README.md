@@ -1,1 +1,0 @@
-### Badge source code, solution and exploits will be released within the talk `HITCON Badge 2019 秘辛: MCU ARM TrustZone challenges` at R0 (Day2 14:40 - 15:30).

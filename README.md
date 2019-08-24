@@ -135,8 +135,15 @@ Badge challenge:
 > Badge source code, solution and exploits will be released within the talk `HITCON Badge 2019 秘辛: MCU ARM TrustZone challenges` at R0 (Day2 14:40 - 15:30).
 
 There are 11 pattern in total, but three of them are special, so you need to get them in special way :)
-### Warm Up
+### Stage 0 - Warm Up
 * Before pwning the badge, why not play some game first.
 * Get the score higher than 50, you can unlock the snake pattern.
-### Pwn the Badge
+### Stage 1 - Hack The Game
+* Try to let the score == 2147483647 by playing the game.
+* Or pwn the badge :)
+* You will know how to do it by reversing the binary of normal world (NonSecure world) in this MCU TrustZone.
+* To make life easier, the binary is not striped and not a raw binary, just take them all (See `firmware/`)
+### Stage 2 - Pwn the Badge
+* The final target is protected by TrustZone in Secure Region.
+* I put my secret in the TrustZone, it is pretty safe, isn't it?
 * Try to pwn the badge for all patterns!

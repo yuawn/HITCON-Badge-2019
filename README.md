@@ -49,7 +49,7 @@ There are four pages, you can use `LEFT` and `RIGHT` button on the badge to swit
     * Linux/macOS: You can use `screen` command.
         * example: `screen /dev/tty.usbmodemxxx` (replace `/dev/tty.usbmodemxxx` with correct path)
     * Windows: You can use `PuTTY` (Connection type: Serial) to connect the COM port.
-* Control the snake by prssing `UP` `DOWN` `LEFT` `RIGHT`.
+* Control the snake by pressing `UP` `DOWN` `LEFT` `RIGHT`.
 * Press `AB` at the same time to pause the game.
     * Press `AB` again to continue the game, `LEFT` to exit.
 * Score
